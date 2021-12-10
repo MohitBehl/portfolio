@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap");
+
+:root {
+  --primary-color: #f59e0b;
+  --dark-grey: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+.primary-link {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+}
+
+/* list */
+
+.non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+
+  padding: 0rem 0.5rem;
+}
+
+/* nav */
+
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.nav .link {
+  color: white;
+}
+
+.nav-pills {
+  text-align: right;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+/* header */
+
+.hero {
+  padding: 2rem;
+}
+
+.hero-image {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero-heading {
+  font-size: 3rem;
+  color: var(--dark-grey);
+  padding-top: 1rem;
+  text-align: center;
+}
+
+/* section */
+
+.section {
+  padding: 2rem;
+}
+.section h1 {
+  text-align: center;
+}
+
+.off-white {
+  background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--primary-color);
+
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+.footer .footer-header {
+  font-weight: bold;
+}
+.footer .link {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+/* projects */
+.project-description{
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+/* blogs */
+
+.blog-container{
+  padding: 1rem;
+  height: 150px;
+}
+.blog-container a{
+  display: block;
+  margin-top: 1rem;
+  max-width: fit-content;
+}
+
+.blog-container .date{
+  padding-left: 1rem;
+  font-size: large;;
+}
